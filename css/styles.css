@@ -1,0 +1,214 @@
+
+/* AirAsia Rewards - HW2 Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+
+header {
+    background-color: #d71920;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 25px;
+}
+
+h2 {
+    color: #d71920;
+    margin-top: 0;
+}
+
+/* Login Page */
+
+.login-container {
+    max-width: 450px;
+    margin: 70px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Forms */
+
+.card-form {
+    max-width: 550px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Buttons */
+
+button,
+.button {
+    display: inline-block;
+    background-color: #d71920;
+    color: white;
+    padding: 12px 22px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    background-color: #a81017;
+}
+
+/* Gift Card List */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.gift-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.gift-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.gift-card a {
+    color: #d71920;
+    text-decoration: none;
+}
+
+.gift-card a:hover {
+    text-decoration: underline;
+}
+
+.gift-card h3 {
+    margin-bottom: 8px;
+}
+
+/* Gift Card Details */
+
+.details-card {
+    max-width: 550px;
+    margin-top: 25px;
+}
+
+.details-card img {
+    height: 250px;
+}
+
+.details-card .button {
+    color: white;
+}
+
+.back-link {
+    display: inline-block;
+    margin: 20px 0 0 15px;
+    color: #d71920;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #eee;
+    color: #555;
+}
+
+/* Mobile Layout */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    .container {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .login-container {
+        margin: 30px 15px;
+        padding: 25px;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .back-link {
+        margin-left: 0;
+        display: block;
+    }
+}

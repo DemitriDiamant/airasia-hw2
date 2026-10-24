@@ -1,0 +1,14 @@
+AI Tool Used:
+ChatGPT (OpenAI)
+
+Prompts Used:
+1. Help me organize my files and folders in GitHub Codespaces.
+2. Help me fix an error with my gift card image not displaying.
+3. Help me with certain HTML coding for my website.
+4. Help me create and improve the HTML and CSS for my AirAsia Rewards website.
+
+How AI Supported My Work:
+I used ChatGPT to help me organize my files and folders correctly in GitHub Codespaces. It also helped me troubleshoot an error when my gift card image was not displaying properly. I used AI to help with certain parts of the HTML coding and CSS styling for my website. I reviewed the suggestions and used them to help complete my assignment.
+
+Example of an AI Suggestion I Changed:
+ChatGPT helped me troubleshoot my gift card image display error. I used an Xbox gift card image instead of the originally suggested AirAsia gift card image and made sure it was placed in the correct images folder.
